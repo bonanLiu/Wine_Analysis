@@ -78,8 +78,8 @@ df_white=df_white.drop_duplicates()
 
 # 5. Histograms for Selected Variables
 
-Red_to_plot=['fixed acidity', 'citric acid', 'residual sugar', 'sulphates', 'alcohol','quality']
-White_to_plot=['citric acid', 'free sulfur dioxide', 'pH', 'sulphates', 'alcohol','quality']
+Red_to_plot = ['citric acid', 'sulphates', 'alcohol','fixed acidity','residual sugar', 'quality']
+White_to_plot=['citric acid', 'sulphates', 'alcohol','free sulfur dioxide', 'pH','quality']
 
 # Layout Set and Histograms
 fig, axes=plt.subplots(2,6,figsize=(20, 10)) 
@@ -88,14 +88,14 @@ fig, axes=plt.subplots(2,6,figsize=(20, 10))
 # Red wine histogram 
 for i, column in enumerate(Red_to_plot):
     ax = axes[0, i]
-    sb.histplot(df_red[column], kde=True, bins=10, color="skyblue", edgecolor="black", ax=ax)
+    sb.histplot(df_red[column], kde=True, bins=10, color="#800020", edgecolor="black", ax=ax)
     ax.set_title(f"Red_{column}", fontsize=12)
     ax.set_xlabel('')
 
 # White wine histogram 
 for i, column in enumerate(White_to_plot):
     ax = axes[1, i] 
-    sb.histplot(df_white[column], kde=True, bins=10, color="skyblue", edgecolor="black", ax=ax)
+    sb.histplot(df_white[column], kde=True, bins=10, color="#800020", edgecolor="black", ax=ax)
     ax.set_title(f"White_{column}", fontsize=12)
     ax.set_xlabel('')
 
