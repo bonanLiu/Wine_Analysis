@@ -10,6 +10,8 @@ git push origin main
 #
 pip install scipy
 pip install seaborn
+pip install scikit-learn
+
 #
 
 # 
