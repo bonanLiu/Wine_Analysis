@@ -173,6 +173,7 @@ preRed=treeRed.predict(xRed_test)
 mse_treeRed = mean_squared_error(yRed_test, preRed)
 mae_treeRed = mean_absolute_error(yRed_test, preRed)
 r2_treeRed = r2_score(yRed_test, preRed)
+print("According to the results obtained from the Decision Tree Regression model, the predicted values are as follows: ")
 print("Mean Squared Error (MSE) :", mse_treeRed)
 
 
