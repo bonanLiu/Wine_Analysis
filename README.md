@@ -9,8 +9,10 @@ git push origin main
 
 #
 pip install scipy
+pip install pandas
 pip install seaborn
 pip install scikit-learn
+pip install xgboost
 
 #
 
