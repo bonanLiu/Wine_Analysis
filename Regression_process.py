@@ -67,7 +67,7 @@ outliers_whitedata = df_white[outliers_whitemask.any(axis=1)]
 df_red = df_red[(abs(Zscore_red) <= 3).all(axis=1)]
 df_white = df_white[(abs(Zscore_white) <= 3).all(axis=1)]
 
-print(df_red.shape,df_white.shape)
+# print(df_red.shape,df_white.shape)
 
 
 
@@ -289,10 +289,10 @@ WhiteWine_df = pd.DataFrame({
     "R2": [r2_treeWhite, r2_RFWhite, r2_XGBWhite, r2_LRALLWhite, r2_SVRWhite]
 }, index=["Decision Tree", "Random Forest", "XGBoost", "Linear Regression", "SVR"])
 
-print("Red Wine Model Performance:")
-print(RedWine_df)
-print("\nWhite Wine Model Performance:")
-print(WhiteWine_df)
+# print("Red Wine Model Performance:")
+# print(RedWine_df)
+# print("\nWhite Wine Model Performance:")
+# print(WhiteWine_df)
 
 
 
