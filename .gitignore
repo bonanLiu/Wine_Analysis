@@ -1,15 +1,19 @@
-# Ignore virtual environments
-.venv/
+# Ignore Python virtual environment
 venv/
-env/
 
-# Python cache
+# Ignore Python bytecode/cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Other common ignores
-*.log
+# Ignore system files
 .DS_Store
-*.swp
+
+# Ignore logs
+*.log
+
+# Ignore Jupyter checkpoints if used
+.ipynb_checkpoints/
+
+# Ignore VSCode settings (optional, if you're using VSCode)
+.vscode/
+
