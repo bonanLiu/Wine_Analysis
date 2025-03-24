@@ -1,5 +1,17 @@
 # Wine_Analysis
 
+# Create virtual environment
+python -m venv venv
+
+# Active virtual environment
+# Windows:
+.\venv\Scripts\activate
+# macOS / Linux:
+source venv/bin/activate
+
+# Install environment
+pip install -r requirements.txt
+
 
 # UPDATE IN GITHUB
 git add .
