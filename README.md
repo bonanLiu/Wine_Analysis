@@ -1,5 +1,5 @@
 # Wine_Analysis
-
+Bonan Liu 300379480
 # Create virtual environment
 python -m venv venv
 
@@ -28,7 +28,7 @@ pip install xgboost
 
 #
 
-# 
-https://www.kaggle.com/code/abdullah0a/wine-quality-prediction
+#  Data resource
+https://www.kaggle.com/datasets/sgus1318/winedata
 #
 https://www.canva.com/design/DAGiYSvxAuY/kK9i2VZiIuF1cJ58FlYHig/edit
