@@ -12,6 +12,7 @@ packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
 playwright==1.51.0
+psutil==7.0.0
 pyee==12.1.1
 pyparsing==3.2.1
 python-dateutil==2.9.0.post0
@@ -24,3 +25,4 @@ soupsieve==2.6
 threadpoolctl==3.6.0
 typing_extensions==4.12.2
 tzdata==2025.1
+xgboost==3.0.0
